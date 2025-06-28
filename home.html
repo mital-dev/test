@@ -1,11 +1,501 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Welcome</h1>
-</body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>MRITTIK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97d0d08bd9.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   
+    
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">Mrittik</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="action.html">Action</a></li>
+                      <li><a class="dropdown-item" href="actiononther.html">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="something.html">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-light" href="blog.html" tabindex="-1" aria-disabled="true">Blog</a>
+                  </li>
+                </ul>
+                <form class="meun-icone" style="display: none;">
+                  <i class="fa-solid fa-grip-lines"></i>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/homes.jpg" class="d-block w-100" alt="..." height="700px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Modern house on top of stilts in the forest </h5>
+                  <p>We design with people in mind and use every expertise at our disposal.Our practice connects
+                    communities and is committed to the stewardship of place, the environment.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/homes4.jpg" class="d-block w-100" alt="..." height="700px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Find your own self invintage lage house</h5>
+                  <p>The talent at Mrittik runs wide and deep. Across many markets, geographies.
+                    Our team members are some of the finest professionals in the industry.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/home3.jpg" class="d-block w-100" alt="..." height="700px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>A drametic feature modern barn house </h5>
+                  <p>Mrittik Architects is a full-service design firm providing architecture, master planning,<br>
+                     urban design, interior architecture, space planning and programming. </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="xw">
+        <div class="card2 border-primary mb-3" style="max-width: 20rem; min-height: 17rem;">
+            <div class="card-header">01</div>
+            <div class="card-body text-primary">
+              <h5 class="card-title">URBAN DESIGN</h5><br>
+              <p class="card-text">Mrittik Architects is a full-service design firm providing architecture, master planning, urban design, interior architecture.</p>
+            </div>
+          </div>
+          <div class="card2 border-secondary mb-3" style="max-width: 20rem; min-height: 17rem;">
+            <div class="card-header">02</div>
+            <div class="card-body text-secondary">
+              <h5 class="card-title">INTERRIOR DESIGN</h5><br>
+              <p class="card-text">Mrittik Architects is a full-service design firm providing architecture, master planning, urban design, interior architecture.</p>
+            </div>
+          </div>
+          <div class="card2 border-success mb-3" style="max-width: 20rem; min-height: 17rem;">
+            <div class="card-header">03</div>
+            <div class="card-body text-success">
+              <h5 class="card-title">LANDSCAPE DESIGN</h5><br>
+              <p class="card-text">Mrittik Architects is a full-service design firm providing architecture, master planning, urban design, interior architecture.</p>
+            </div>
+          </div>
+    </div>
+    
+    <div class="xe">
+        <div class="img">
+            <img src="img/home01-bg-01.jpg" height="650px" width="500px" style="margin-left: 100px;">
+        </div>
+        <div>
+            <p class="xc" style="font-size: 60px;"><b>ABOUT MRITTIK<br>
+                ARCHITECTS</b></p>
+            <p class="cx">Mrittik Architects is a full-service design firm providing architecture, <br>
+                master planning, urban design, interior architecture, space planning<br>
+                 and programming. Our portfolio of completed work includes highly <br>
+                 acclaimed and award-winning projects for clients.</p> 
+            <div class="px">     
+            <div class="am">
+              <div class="qm">
+              <i class="fa-solid fa-cubes"></i></div>
+              <div class="vw">
+                <p><b>3D Space Designing</b></p>
+              </div>  
+            </div> 
+            <div class="am">
+              <div class="qm"><i class="fa-solid fa-sitemap"></i></div>
+              <div class="vw"><p><b>Architectural Drawing</b></p></div>
+            </div>  
+        </div>
+
+        <div class="px">
+          <div class="am">
+            <div class="qm"><i class="fa-regular fa-building"></i></div>
+            <div class="vw"><p><b>3D Model Building</b></p></div>
+          </div>
+          <div class="am2"> 
+            <div class="qm"><i class="fa-solid fa-house-user"></i></div>
+            <div class="vw"><p><b>Building The Space</b></p></div>
+          </div>
+        </div>
+
+        <div class="ps">
+          <p><b>Read More</b></p>
+        </div>
+    </div>
+
+    <div class="">
+      <p>LATEST BLOG</p>
+      <i class="fa-brands fa-unity"></i>
+    </div>
+    </div>
+
+    <div class="xp">
+      <div class="bmw">
+        <p class="mq">120</p>
+        <p class="ng"><b>Project Completed</b></p>
+      </div>
+      <div class="new">
+        <p class="mq">210 +</p>
+        <p  class="ng"><b>Design Drawing</b></p>
+      </div>
+      <div class="nxw">
+        <p class="mq">15</p>
+        <p  class="ng"><b>Design Award</b></p>
+      </div>
+      <div class="br">
+        <p class="mq">62</p>
+        <p  class="ng"><b>Project Running</b></p>
+      </div>
+    </div>
+    <div class="kd">
+    <div class="dk">
+      <div class="ch">
+        <img src="img/road.jpg" height="700px" width="500px">
+      </div>
+      <div>
+        <div class="jk"><img src="img/shop.jpg" height="300px " width="200px"></div>
+        <div class="mi"><img src="img/water.jpg" height="400px" width="400px"></div>
+      </div>
+    </div>
+    </div>
+
+    <div style="background-color: black; padding-top: 100px;">
+      <div style="color: white; font-size: 50px; text-align: center;"><p><b>LATEST BLOG</b></p></div>
+      <div class="deta">
+        <div class="box-container">
+          <div style="color: darkgray;"><p>NOVEMBER 14, 2023</p></div>
+          <div><p style="color: aliceblue; font-size: 30px;"><b>Transforming spaces for<br> maximum utility</b></p></div>
+          <div><p style="color: darkgray; font-size: 20px;">Ever felt like your living or working <br>
+            space could be more functional<br>
+            and efficient? In this blog series, <br>
+            we explore the art of transforming<br>
+            spaces for maximum utility. From<br>
+            clever storage solutions to</p></div><br>
+            <div class="lf">
+          <div style="color: darkgray;"><p style="margin-top: 5px;"><b>View Details</b></p></div>
+          <div class="hm"><i class="fa-solid easy fa-arrow-right" style="color: #808185;"></i></div></div>     
+        </div>
+        <div class="box-containers">
+          <div style="color: darkgray;"><p>NOVEMBER 14, 2023</p></div>
+          <div><p style="color: aliceblue; font-size: 30px;"><b>Embracing minimalism in <br> space design</b></p></div>
+          <div><p style="color: darkgray; font-size: 20px;">In a world filled with noise, <br>
+            embracing minimalism in space<br>
+            design offers a serene retreat. This<br>
+            blog series explores the beauty<br>
+            and functionality of minimalist<br>
+            design principles. Join us as we</p></div><br>
+            <div class="lf">
+          <div style="color: darkgray;"><p  style="margin-top: 5px;"><b>View Details</b></p></div>
+          <div class="hm"><i class="fa-solid easy fa-arrow-right" style="color: #808185;"></i></div></div>    
+        </div>
+        <div class="box-containera">
+          <div style="color: darkgray;"><p>MARCH 27, 2023</p></div>
+          <div><p style="color: aliceblue; font-size: 30px;"><b>Recent trends in designing  <br> space interiors 2023</b></p></div>
+          <div><p style="color: darkgray; font-size: 20px;">You don't create unforgettable<br>
+            spaces all over the world with a<br>
+            single design tool. Our expertise in<br>
+            drawing people together is as<br>
+            broad as it is deep. It draws from a<br>
+            variety of disciplines…</p></div><br>
+            <div class="lf">
+          <div style="color: darkgray;"><p  style="margin-top: 5px;"><b>View Details</b></p></div>
+          <div class="hm"><i class="fa-solid easy fa-arrow-right" style="color: #808185;"></i></div></div>    
+
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card bg-dark text-white">
+        <img src="img/rooms2.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h1 class="card-title" style="margin-top: 250px; font-size: 30px;">landscap Design</h1>
+          <p class="card-text2" style="font-size: 60px ;"><b>We Add Beauty<br> & Aesthetics To <br>Architecture</b></p>
+          <div class="pd"><p class="card-text4"><b>VIEW PROJECTS</b></p></div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: black; padding-top: 100px; padding-bottom: 100px;">
+      <p class="pz" style="text-align: center;"><b>MEET OUR TEAM</b></p>
+      
+      <div class="nv">
+        <div>
+          <div class="pl"><img src="img/team1.jpg" height="500px" width="400px"></div>
+          <div class="lx"><p style="color: white; font-size: 30px;"><b>Michel Robertson</b></p>
+          <p style="color: rgb(83, 72, 52); font-size: 20px;"><b>Architects</b></p></div>
+        </div>
+        <div>
+          <div class="pl2"><img src="img/team2.jpg" height="500px" width="400px"></div>
+          <div class="lx"><p  style="color: white; font-size: 30px;"><b>Mellisa Johansen</b></p>
+          <P style="color: rgb(83, 72, 52); font-size: 20px;"><b>Architects</b></P></div>
+        </div>
+        <div>
+          <div class="pl3"><img src="img/t.jpg" height="500px" width="400px"></div>
+          <div class="lx"><p  style="color: white; font-size: 30px;"><b>Dave Crossby</b></p>
+          <p style="color: rgb(83, 72, 52); font-size: 20px;"><b>Architects</b></p></div>
+        </div>
+      </div>
+      <div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mitali" style="background-color: black; padding-bottom: 100px;">
+      <div>
+        <div>
+          <img style="margin-left: 100px;" src="img/page.jpg" height="600px" width="500px">
+          <p class="po" style="color: white; margin-left: 100px; font-size: 30px;"><b>Building With traingles</b></p>
+          <p style="color: rgb(138, 141, 145); margin-left: 100px; font-size: 20px;"><b>CLUBE HOUSE</b></p>
+        </div>
+        <div style="margin-top: 90px;">
+          <img style="margin-left: 100px;" src="img/page2.jpg" height="700px" width="500px">
+          <p  class="po" style="color: white; margin-left: 100px; font-size: 30px;"><b>The flansburgh house</b></p>
+          <p style="color: rgb(138, 141, 145); margin-left: 100px; font-size: 20px;"><b>CLUBE HOUSE</b></p>
+        </div>
+        <div style="margin-top: 90px;">
+          <img style="margin-left: 100px;" src="img/page3.jpg" height="600px" width="500px">
+          <p  class="po" style="color: white; margin-left: 100px; font-size: 30px;"><b>The ball-paylore house</b></p>
+          <p style="color: rgb(138, 141, 145); margin-left: 100px; font-size: 20px;"><b>CLUBE HOUSE</b></p>
+        </div>
+        <div style="margin-top: 90px;">
+          <img style="margin-left: 100px;" src="img/page4.jpg" height="300px" width="500px">
+          <p  class="po" style="color: white; margin-left: 100px; font-size: 30px;"><b>California Mansion Residence</b></p>
+          <p style="color: rgb(138, 141, 145); margin-left: 100px; font-size: 20px;"><b>CLUBE HOUSE</b></p>
+        </div>
+
+      </div>
+      <div>
+        <div>
+          <img style="margin-left: 200px;" src="img/page5.jpg" height="300px" width="500px">
+          <p  class="po" style="color: white; margin-left: 200px; font-size: 30px;"><b>Magnolia net zero carbon</b></p>
+          <p style="color: rgb(138, 141, 145); margin-left: 200px; font-size: 20px;"><b>CLUBE HOUSE</b></p>
+        </div>
+        <div style="margin-top: 90px;">
+          <img style="margin-left: 200px;" src="img/balls.jpg" height="600px" width="500px">
+          <p  class="po" style="color: white; margin-left: 200px; font-size: 30px;"><b>Building blue and white</b></p>
+          <p style="color: rgb(138, 141, 145); margin-left: 200px; font-size: 20px;"><b>CLUBE HOUSE</b></p>
+        </div>
+        <div style="margin-top: 90px;">
+          <img style="margin-left: 200px;" src="img/ball.jpg" height="600px" width="500px">
+          <p  class="po" style="color: white; margin-left: 200px; font-size: 30px;"><b>White concrete building</b></p>
+          <p style="color: rgb(138, 141, 145); margin-left: 200px; font-size: 20px;"><b>CLUBE HOUSE</b></p>
+        </div>
+        <div style="margin-top: 90px;">
+          <img style="margin-left: 200px;" src="img/portfolio.jpg" height="700px" width="500px">
+          <p  class="po" style="color: white; margin-left: 200px; font-size: 30px;"><b>Grey concrete building</b></p>
+          <p style="color: rgb(138, 141, 145); margin-left: 200px; font-size: 20px;"><b>CLUBE HOUSE</b></p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="ms">
+    <div style="color: white; font-size: 40px; text-align: center; margin-bottom:20px;">
+      <p><b>LET'S DISCUSS <br>NEXT PROJECTS</b></p>
+    </div>
+    <div style="color: white; font-size: 20px; text-align: center; margin-bottom:80px;">
+      The talent at Mrittik runs wide and deep. Across many markets, geographies and typologies,<br>
+       our team members are some of the finest professionals in the industry.. We’ve grouped our<br>
+        work into five categories: places, venues, spaces, experiences and events.
+    </div>
+      <form class="row g-3 needs-validation" validate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>STATE</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+       <div>
+        <div>
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  SUBMIT FORM
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" style="color: black;">MRITTIK</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="color: black;">
+        ARE YOU SURE!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+       </div>
+      </form>
+    </div>
+  
+    <div style="background-color: rgb(34, 33, 33); padding-bottom: 90px;">
+      <div class="poq"> 
+        <div class="ow">
+          <div><p style="color: rgb(68, 96, 62);"><b>Studio Website</b></p>
+            <p style="color: white; margin-top: 0px;" class="oq">www.mrittikarchitects.com</p>
+          </div>
+          <div><p style="color: rgb(68, 96, 62);"><b>Email Address</b></p>
+            <p style="color: white; margin-top: 0px;" class="oq">mrittikarchitects@gmail.com</p>
+          </div>
+          <div><p style="color: rgb(68, 96, 62);"><b>Phone No</b></p>
+            <p style="color: white; margin-top: 0px;" class="oq">+123(45678)</p>
+          </div>
+          <div><p style="color: rgb(68, 96, 62);"><b>Office Address</b></p>
+            <p style="color: white; margin-top: 0px;">3 Madison Street NY, USA</p>
+          </div>
+
+          </div>
+
+
+        <div>
+          <div class="logo">
+            <img src="img/logo-dark (1).png" height="100px" width="200px">
+          </div>
+          
+          <div class="right" style="color: rgb(79, 76, 76);">
+          <div class="mm"><p>TERMS</p></div>
+          <div class="dd"><p>CONDITION</p></div>
+          <div class="oo"><p>POLICY</p></div>
+          </div>
+          <div style="color:rgb(79, 76, 76) ; margin-left: 250px;">Mrittik 2024. All rights reserved</div>
+          </div>
+
+        </div>
+        <div style="margin-left: 650px; margin-top: 50px; text-align: center; width: 400px;">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="services.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="blog.html">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        </div>
+
+      </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
